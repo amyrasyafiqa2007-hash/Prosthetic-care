@@ -30,6 +30,7 @@
         {
             label1 = new Label();
             button1 = new Button();
+            checkBox1 = new CheckBox();
             SuspendLayout();
             // 
             // label1
@@ -51,11 +52,22 @@
             button1.Text = "Click Me";
             button1.UseVisualStyleBackColor = true;
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(600, 293);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(121, 29);
+            checkBox1.TabIndex = 2;
+            checkBox1.Text = "checkBox1";
+            checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1000, 562);
+            Controls.Add(checkBox1);
             Controls.Add(button1);
             Controls.Add(label1);
             Margin = new Padding(4, 4, 4, 4);
@@ -69,5 +81,6 @@
 
         private Label label1;
         private Button button1;
+        private CheckBox checkBox1;
     }
 }
