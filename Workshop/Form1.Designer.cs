@@ -30,35 +30,45 @@
         {
             label1 = new Label();
             button1 = new Button();
+            button2 = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(295, 211);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(236, 169);
             label1.Name = "label1";
-            label1.Size = new Size(63, 25);
+            label1.Size = new Size(52, 20);
             label1.TabIndex = 0;
             label1.Text = "HELLO";
             // 
             // button1
             // 
-            button1.Location = new Point(586, 126);
+            button1.Location = new Point(469, 101);
+            button1.Margin = new Padding(2, 2, 2, 2);
             button1.Name = "button1";
-            button1.Size = new Size(115, 45);
+            button1.Size = new Size(92, 36);
             button1.TabIndex = 1;
             button1.Text = "Click Me";
             button1.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            button2.Location = new Point(83, 77);
+            button2.Name = "button2";
+            button2.Size = new Size(94, 29);
+            button2.TabIndex = 2;
+            button2.Text = "ENTER";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1000, 562);
+            ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
-            Margin = new Padding(4, 4, 4, 4);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -69,5 +79,6 @@
 
         private Label label1;
         private Button button1;
+        private Button button2;
     }
 }
